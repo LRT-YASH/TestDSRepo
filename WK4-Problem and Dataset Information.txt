@@ -1,0 +1,25 @@
+A description of the problem and a discussion of the background.
+================================================================
+A friend of mine is a good cook and moving from another city to Chicago with a plan to open a restuarant. He asked my help to find a best community
+that fits his needs. His requirements are, The place should have sizable middle age people , with good employment rates. 
+Also since he is going to open a Mexican restuarant so there should be a sizable Latino community in the neighbourhood but not with many mexican restuarants around.
+Also his resturant price range is going to be Moderate to High so the community income should be decent as well. 
+
+
+A description of the data and how it will be used to solve the problem. (15 marks)
+==================================================================================
+
+To Solve the problem, I need the following datasets:
+1) As the restuarant is going to carry moderate to high price range dishes , I need the Communities in Chicago, their employment rates and per capita income
+2) As the need is to open in a community with decent employment rates and sizeable Latino community and middle age groups, I need a dataset with demographic information with age.
+3) I need to query the foursquare API to address the final need, make sure there are not many Mexican resturants arounds and their price ranges to get an idea of the community
+
+
+After careful research, Here are a few datasets I have found that helps me find the best place that fits his needs:
+Census data to help with first dataset need above:
+https://datahub.cmap.illinois.gov/dataset/2010-census-data-summarized-to-chicago-community-areas
+
+Census data to help with first dataset need above:
+https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2
+
+Finally Foursquare API for price ranges and to find other Mexican restuarants with similar price ranges.
